@@ -1,9 +1,13 @@
 import './App.css';
+import Avatar from './components/avatar.js'
 
 function App() {
   return (
     <>
-    <div>Hello</div>
+    <header className='header'>
+      <Avatar />
+    </header>
+    
     </>
   );
 }

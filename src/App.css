@@ -2,3 +2,37 @@
   text-align: center;
 }
 
+html, body {
+  max-width: 595px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #252525;
+  color: white;
+}
+
+.header {
+  background: radial-gradient(100% 100% at 100% 100%, #6610F2 0%, #252525 100%);
+  color: white;
+  /* height: 300px; */
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.avatar-container {
+  margin: 15px auto;
+  margin-left: 35px;
+}
+
+.avatar {
+  box-sizing: border-box;
+  
+  width: 180px;
+  height: 180px;
+  left: 35px;
+  top: 15px;
+  
+  background: #FFFFFF;
+  border: 1px solid #252525;
+  box-shadow: 15px 50px 50px rgba(37, 37, 37, 0.25);
+  border-radius: 1000px;
+  }
