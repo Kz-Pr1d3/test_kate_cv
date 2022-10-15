@@ -10,6 +10,8 @@ html, body {
   padding: 0;
   background-color: #101010;
   color: white;
+  font-family: 'Inter';
+  font-style: normal;
 }
 
 .header {
@@ -106,12 +108,13 @@ html, body {
   
 }
 
-.about-container {
+.container-with-yellow-border {
   padding: 15px;
   background: rgba(30, 30, 30, 0.5);
   border: 1px solid rgba(255, 193, 7, 0.5);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  margin: 15px;
 }
 
 .section-title {
@@ -151,3 +154,12 @@ html, body {
   margin-bottom: 6px;
 }
 
+.skill {
+  background-color: #FFC107;
+  color: #101010;
+  margin: 3px;
+  padding: 0 7px;
+  display: inline-block;
+  white-space: nowrap;
+  border-radius: 3px;
+}
