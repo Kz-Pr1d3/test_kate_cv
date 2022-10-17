@@ -6,7 +6,7 @@ const About = (props) => {
         <div className="container-with-yellow-border">
             <h3 className="section-title">Skills</h3>
             <div className="section-text">
-            <span className="skill">Website layout</span>
+                <span className="skill">Website layout</span>
                 <span className="skill">HTML</span>
                 <span className="skill">CSS</span>
                 <span className="skill">React JS</span>
