@@ -4,6 +4,9 @@ import Hero from './components/Hero.js'
 import About from './components/About.js'
 import Skills from './components/Skills.js'
 import Contacts from './components/Contacts.js'
+import WorkExperience from './components/WorkExperience.js'
+import Education from './components/Education.js'
+import Projects from './components/Projects.js'
 
 
 function App() {
@@ -19,7 +22,9 @@ function App() {
       <Contacts />
     </nav>
     <main className="main-info">
-      hihi
+      <WorkExperience />
+      <Education />
+      <Projects />
     </main>
     
     </>

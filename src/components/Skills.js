@@ -1,6 +1,6 @@
 import '../App.css';
 
-const About = (props) => {
+const Skills = (props) => {
     return (
         <>
         <div className="container-with-yellow-border">
@@ -28,4 +28,4 @@ const About = (props) => {
     )
 }
 
-export default About
+export default Skills

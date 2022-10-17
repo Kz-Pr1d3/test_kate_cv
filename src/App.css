@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -89,7 +93,7 @@ html, body {
 
 .sidenav {
   width: 42%;
-  height: 842px;
+  height: 100%;
 
   float: left;  
   margin-right: 20px;
@@ -100,8 +104,8 @@ html, body {
 }
 
 .main-info {
-  margin: 20px;
-  
+  margin: 15px;
+  margin-left: 43%;
 }
 
 .container-with-yellow-border {
@@ -160,7 +164,9 @@ html, body {
 }
 
 .container-with-shadow {
-  border-bottom: 1px solid rgba(37, 37, 37, 0.5);
+  background: #252525;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px rgba(255, 193, 7, 0.1);
   border-radius: 10px;
   padding: 15px;
   margin: 15px;
@@ -188,3 +194,32 @@ html, body {
   margin: 10px auto;
 }
 
+.container-with-gradient {
+  background: radial-gradient(100% 112.5% at 100% 100%, #6610F2 0%, rgba(16, 16, 16, 0.5) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px rgba(102, 16, 242, 0.15);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  border-bottom: 1px solid #FFC107 ;
+}
+
+.education-container > p {
+  white-space: nowrap;
+}
+
+.education-container > div > p {
+  margin: 5px;
+  padding: 0;
+}
+
+.education-container > div > p:first-child {
+  font-size: 11px;
+}
