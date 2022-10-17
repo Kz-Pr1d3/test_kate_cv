@@ -17,9 +17,10 @@ function App() {
       <Hero />
     </header>
     <nav className="sidenav">
-      <About />
       <Skills />
+      <About />
       <Contacts />
+      
     </nav>
     <main className="main-info">
       <WorkExperience />
