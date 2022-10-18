@@ -227,3 +227,64 @@ html, body {
 .education-container > div > p:first-child {
   font-size: 11px;
 }
+
+.timeline {
+  margin: 0;
+  margin-left: 20px;
+  border-left: 1px solid #FFC107;
+}
+
+.timeline > ul > li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.timeline > ul > li::before {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  left: -5px;
+  background-color: #FFC107;
+  border: 2px solid #252525;
+  border-radius: 50%;
+  top: 17px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.work-period-container {
+ display: inline-block;
+ margin: 5px 0;
+ padding: 2px 5px;
+ color: #000;
+ background-color: #FFC107;
+ border-radius: 5px;
+}
+
+.work-period-container > p {
+  margin: 0;
+}
+
+.work-exp-container > p {
+  margin: 0;
+}
+
+.work-exp-container > p:first-child {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.work-exp-container > p:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.work-exp-container > ul > li {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
