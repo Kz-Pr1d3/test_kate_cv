@@ -288,3 +288,8 @@ ul {
   margin-left: 5px;
   margin-bottom: 5px;
 }
+
+.show-more-span {
+  text-decoration: underline;   
+  cursor: pointer;
+}
