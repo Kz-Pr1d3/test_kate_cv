@@ -3,7 +3,7 @@ import '../App.css';
 const About = (props) => {
     return (
         <>
-        <div className="container-with-yellow-border">
+        <div className="container-with-gradient">
             <h3 className="section-title">About me</h3>
             <div className="section-text">
                 <p>Since I was in college, I have always shown an interest in the layout and 

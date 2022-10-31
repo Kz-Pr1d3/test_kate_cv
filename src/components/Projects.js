@@ -3,20 +3,14 @@ import '../App.css';
 const Projects = (props) => {
     return (
         <>
-        <div className="container-with-gradient">
-            <h3 className="section-title">Projects</h3>
+        <div className="container-with-yellow-border">
+            <h3 className="section-title">My projects</h3>
             <div className="section-text">
-                <p>Projects</p>
-                <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                    
-                </ul>
+                <p>I have created my resume, which you see now, using React js, 
+                    vanilla CSS. Each block, that you see has it's own component.</p>
+                <p>I also have started a project with my friend. We intend to create
+                    a financial app. I do all the frontend part.
+                </p>
             </div>
         </div>
         </>

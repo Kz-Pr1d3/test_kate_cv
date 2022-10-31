@@ -1,4 +1,4 @@
-import avatar from '../assets/1vlad.jpg'
+import avatar from '../assets/photo.jpeg'
 import '../App.css';
 
 const Avatar = (props) => {

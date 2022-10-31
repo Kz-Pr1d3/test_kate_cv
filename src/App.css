@@ -10,12 +10,17 @@
 
 html, body {
   max-width: 595px;
+  height: 100%;
   margin: 0 auto;
   padding: 0;
   background-color: #101010;
   color: white;
   font-family: 'Inter';
   font-style: normal;
+}
+
+#root {
+  /* height: 100%; */
 }
 
 .header {
@@ -93,8 +98,7 @@ html, body {
 
 .sidenav {
   width: 42%;
-  height: 100%;
-
+  
   float: left;  
   margin-right: 20px;
   padding: 15px;
