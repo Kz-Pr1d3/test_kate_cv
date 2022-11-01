@@ -45,7 +45,7 @@ const About = (props) => {
                     </svg>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/ekatemorozova12/">
+                    <a href="js/components/Contacts">
                     <svg 
                     className="icon"
                     viewBox="0 0 16 16" 
