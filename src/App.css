@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
+:root {
+  --gradient-color: #6610F2;
+  --text-elements-color: #FFC107;
+  --section-title-font-size: 13px;
+  --section-text-font-size: 10px;
+  --job-title-font-size: 11px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,10 +17,10 @@
 }
 
 html, body {
-  max-width: 595px;
+  /* max-width: 595px; */
   height: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 10px;
   background-color: #101010;
   color: white;
   font-family: 'Inter';
@@ -24,7 +32,7 @@ html, body {
 }
 
 .header {
-  background: radial-gradient(100% 100% at 100% 100%, #6610F2 0%, #252525 100%);
+  background: radial-gradient(100% 100% at 100% 100%, var(--gradient-color) 0%, #252525 100%);
   color: white;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -58,8 +66,6 @@ html, body {
 }
 
 .hero-name {
-  width: 186px;
-  height: 96px;
   left: -2px;
   top: 3px;
 
@@ -69,7 +75,7 @@ html, body {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 48px;
+  /* line-height: 48px; */
 
   color: #FFFFFF;
 
@@ -88,7 +94,7 @@ html, body {
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 24px;
+  /* line-height: 24px; */
   text-align: center;
 
   color: #FFFFFF;
@@ -125,8 +131,8 @@ html, body {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: var(--section-title-font-size);
+  /* line-height: 16px; */
   margin: 0;
   padding: 0;
   position: relative;
@@ -137,7 +143,7 @@ html, body {
   content: "";
   width: 100%;
   height: 1px;
-  background-color: #FFC107;
+  background-color: var(--text-elements-color);
   display: block;
   margin-top: 5px;
 }
@@ -146,8 +152,8 @@ html, body {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;  
+  font-size: var(--section-text-font-size);
+  /* line-height: 12px;   */
   margin-top: 12px;
   margin-bottom: 5px;
 }
@@ -158,7 +164,7 @@ html, body {
 }
 
 .skill {
-  background-color: #FFC107;
+  background-color: var(--text-elements-color);
   color: #101010;
   margin: 3px;
   padding: 0 7px;
@@ -181,7 +187,7 @@ html, body {
 }
 
 .icon {
-  fill: #FFC107;
+  fill: var(--text-elements-color);
   width: 20px;
   height: 20px;
   margin: 0px 5px;
@@ -189,13 +195,13 @@ html, body {
 
 .icons-p {
   vertical-align: middle; 
-  font-size: 12px;
+  font-size: var(--section-text-font-size);
 }
 
 .icons-p:nth-child(3) {
   margin: 20px 0px;
   font-weight: 400;
-  font-size: 13px;
+  font-size: var(--section-title-font-size);
 }
 
 .icons-container {
@@ -203,7 +209,7 @@ html, body {
 }
 
 .container-with-gradient {
-  background: radial-gradient(100% 112.5% at 100% 100%, #6610F2 0%, rgba(16, 16, 16, 0.5) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(100% 112.5% at 100% 100%, var(--gradient-color) 0%, rgba(16, 16, 16, 0.5) 100%);
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 0px 5px 5px rgba(102, 16, 242, 0.15);
   border-radius: 10px;
@@ -216,7 +222,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   margin: 5px;
-  border-bottom: 1px solid #FFC107 ;
+  border-bottom: 1px solid var(--text-elements-color) ;
 }
 
 .education-container > p {
@@ -229,13 +235,13 @@ html, body {
 }
 
 .education-container > div > p:first-child {
-  font-size: 11px;
+  font-size: var(--job-title-font-size);
 }
 
 .timeline {
   margin: 0;
   margin-left: 20px;
-  border-left: 1px solid #FFC107;
+  border-left: 1px solid var(--text-elements-color);
 }
 
 .timeline > ul > li {
@@ -250,7 +256,7 @@ html, body {
   width: 5px;
   height: 5px;
   left: -5px;
-  background-color: #FFC107;
+  background-color: var(--text-elements-color);
   border: 2px solid #252525;
   border-radius: 50%;
   top: 17px;
@@ -267,7 +273,7 @@ ul {
  margin: 5px 0;
  padding: 2px 5px;
  color: #000;
- background-color: #FFC107;
+ background-color: var(--text-elements-color);
  border-radius: 5px;
 }
 
@@ -281,7 +287,7 @@ ul {
 
 .work-exp-container > p:first-child {
   font-weight: 600;
-  font-size: 11px;
+  font-size: var(--job-title-font-size);
 }
 
 .work-exp-container > p:nth-child(2) {
@@ -296,4 +302,113 @@ ul {
 .show-more-span {
   text-decoration: underline;   
   cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    --section-title-font-size: 18px;
+    --section-text-font-size: 14px;
+    --job-title-font-size: 16px;
+  }
+
+  html, body {
+    max-width: 1200px;
+    padding: 0 10px;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .hero-name {
+    width: 370px;
+    height: 55px;
+    left: -2px;
+    top: 3px;
+    text-align: right;
+  }
+
+  .hero-job {
+    text-align: right;
+  }
+
+  .hero-container {
+    align-items: flex-end;
+    margin-right: 50px;
+  }
+
+  .sidenav {
+    width: 30%;
+  }
+  
+  .main-info {
+    margin-left: 31%;
+  }
+
+  .skill {
+    padding: 3px 7px;
+  }
+
+  .section-text > p {
+    margin-bottom: 10px;
+  }
+  
+  .work-exp-container > ul > li {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  html, body {
+    padding: 0;
+  }
+
+  .hero-name {
+    font-size: 30px;
+  }
+  
+  .hero-job {
+    font-size: 16px;
+    text-align: left;
+    width: auto;
+  }
+  
+  .avatar {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  
+  .sidenav {
+      /* align-items: center; */
+      float: none;
+      width: calc(100% - 20px);
+      margin: 0 auto;
+      background: none;
+      box-shadow: none;
+    }
+
+    .main-info {
+      width: 100%;
+      margin: 0;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+    }
+
+    .avatar-container {
+      margin: 8px 15px;
+    }
+
+    .hero-name {
+      font-size: 20px;
+    }
+
+    .hero-job {
+      font-size: 12px;
+    }
 }
